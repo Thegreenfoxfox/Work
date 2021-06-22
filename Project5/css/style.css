@@ -1,0 +1,23 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.form_header{
+    flex-grow: 0;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #212121;
+    padding: 29px 128px 29px 129px;
+}
+.form_block{
+text-align: center;
+}
+.container{
+    width: 1280px;
+    height: 650px;
+    background-color:#f4f4f4;
+    padding:75px 75px 80px 80px;
+}
