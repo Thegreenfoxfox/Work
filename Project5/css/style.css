@@ -8,16 +8,70 @@
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    text-align: center;
     color: #212121;
-    padding: 29px 128px 29px 129px;
+    display: inline-block;
+    
+    
 }
 .form_block{
-text-align: center;
+    text-align: center;
+    padding-left: 67px;
 }
+
 .container{
     width: 1280px;
     height: 650px;
     background-color:#f4f4f4;
     padding:75px 75px 80px 80px;
 }
+.form_name_your, .form_telephone_your{
+    flex-grow: 0;
+    font-size: 12px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.6px;
+    color: #212121;
+    text-transform: uppercase;
+    width: max-content;
+    margin-left: 65px;
+}
+.form_name_name, .form_telephone_tel {
+    flex-grow: 0;
+    font-size: 12px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.6px;
+    color:#428a60;
+}
+.form_name_textname, .form_name_textlang, .form_name_texttel{
+    width: 320px;
+    height: 50px;
+    flex-grow: 0;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 96px 16px 20px;
+    border-radius: 5px;
+    border: solid 1px #e4e4e4;
+    background-color: #f8f8f8;
+    margin-left: -40px;
+}
+.form_sending{
+    width: 320px;
+    height: 42px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 38px 123px 0 62px;
+    padding: 12px 20px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #428a60;
+}
+
