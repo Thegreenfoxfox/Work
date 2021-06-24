@@ -11,10 +11,12 @@
     color: #212121;
     display: inline-block;
     margin-right: 32px;
+    width: 560px;
+    height: 119px;
+    background-color: #f8f8f8;
 }
 .form_block{
     text-align: center;
-    padding-left: 67px;
 }
 
 .container{
@@ -101,7 +103,7 @@
     z-index: 3;
     position: absolute;
     top:115px;
-    left: 120px;
+    left: 537px;
 }
 .tablets_text {
     position: absolute;
@@ -115,10 +117,19 @@
     text-align: left;
     color: #ffffff;
     z-index: 3;
-    left:120px;
+    left:537px;
     top:517px;
 }
 .tablets_image {
     
     z-index: 1;
+}
+.tablets_block {
+    background-image:url(../image/Left_img_tablets.jpg);
+}
+
+.form_white{
+    padding-left: 67px;
+    background-color:white;
+    height: 381px;
 }
